@@ -64,6 +64,7 @@ __migrator:
         - is_freethreading
     wait_for_migrators:
         - python313
+    allowlist_file: free-threaded-313.txt
 
 python:
 - 3.13.* *_cp313t
